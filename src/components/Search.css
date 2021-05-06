@@ -1,0 +1,26 @@
+.search-container {
+  display: flex;
+  font-family: Roboto;
+}
+.search-input {
+  border-color: #d6d8dc;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  color: #323c52;
+  flex: 1;
+  font-family: Roboto;
+  height: 50px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.search-button {
+  flex: 0 1;
+  font-family: Roboto;
+  background-color: #018794;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+}
