@@ -1,8 +1,8 @@
-.search-container {
+.search-form {
   display: flex;
   font-family: Roboto;
 }
-.search-input {
+.text-input {
   border-color: #d6d8dc;
   border-radius: 5px;
   border-style: solid;
@@ -15,7 +15,7 @@
   padding: 10px;
 }
 
-.search-button {
+.action-button {
   flex: 0 1;
   font-family: Roboto;
   background-color: #018794;
@@ -23,4 +23,55 @@
   border: none;
   border-radius: 5px;
   height: 50px;
+}
+
+.card {
+  border-color: #d6d8dc;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 16px;
+  color: #323c52;
+  text-decoration: none;
+  overflow: hidden;
+  top: 0;
+  position: relative;
+}
+
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -2px;
+}
+
+.card.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card.media img {
+  max-width: 200px;
+}
+
+.card .title {
+  font: 500 22px "Roboto";
+}
+
+.card .content {
+  padding: 16px;
+}
+
+.card .summary {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  font: 400 16px "Roboto";
+  line-height: 1.5;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+}
+
+.card .price-tag {
+  text-align: right;
+  font: 700 18px "Roboto";
 }
